@@ -1,0 +1,22 @@
+{
+  "method": "itcmoe",
+  "budget": 20,
+  "status": "Real-model before/after validation in progress",
+  "stages": [
+    "prepare",
+    "covariance",
+    "rank-inputs",
+    "rank",
+    "prepare-hot",
+    "hot",
+    "evaluate"
+  ],
+  "datasets": [
+    "mbpp",
+    "gsm8k",
+    "multiarith",
+    "singleop",
+    "singleq"
+  ],
+  "anchor_lambda": 0.1
+}
